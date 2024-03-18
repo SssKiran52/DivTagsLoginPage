@@ -1,0 +1,94 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    transition: all 1s;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+#a{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(105deg,red,yellow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#b{
+    width: 80%;
+    height: 80%;
+    background-image: linear-gradient(105deg, pink,blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+}
+#c{
+    width: 60%;
+    height: 60%;
+    background-color: black;
+    border-radius: 20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    box-shadow: 4px 4px 4px white;
+}
+h4{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 10px;
+    position: relative;
+    top: -20px;
+    text-shadow: 2px 2px 2px black;
+}
+input{
+    width: 120%;
+    height: 30px;
+    position: relative;
+    left: -30px;
+    background-color: white;
+    outline-color:blue;
+    padding: 5px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+#button{
+    width: 120%;
+    height: 30px;
+    position: relative;
+    left: -23px;
+    background-color:white;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#button:hover{
+    transform: scale(1.1);
+    background-color: rgb(11, 204, 11);
+    text-shadow: 1px 1px 1px white;
+}
+h5{
+    position: absolute;
+    bottom: 100px;
+    color: white;
+    font-size: large;
+}
+a{
+    position: absolute;
+    bottom: 70px;
+    color: red;
+    text-shadow: 1px 1px 1px black;
+    text-decoration: none;
+    font-size:20px;
+    text-decoration-line: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a:hover{
+    transform: scale(1.1);
+    color: greenyellow;
+}
